@@ -1,5 +1,6 @@
 import {
 	IAuthenticateGeneric,
+	Icon,
 	ICredentialTestRequest,
 	ICredentialType,
 	INodeProperties,
@@ -7,6 +8,7 @@ import {
 
 export class AllureTestOpsCredentialsApi implements ICredentialType {
 	name = 'allureTestOpsCredentialsApi';
+	icon: Icon = { light: 'file:allure_testops.svg', dark: 'file:allure_testops.svg' };
 	displayName = 'Allure TestOps Credentials API';
 	documentationUrl = 'https://github.com/GAKiknadze/n8n-nodes-allure-testops/docs/credentials.md';
 	properties: INodeProperties[] = [
@@ -33,7 +35,7 @@ export class AllureTestOpsCredentialsApi implements ICredentialType {
 		type: 'generic',
 		properties: {
 			headers: {
-				Authorization: '=Bearer {{$credentials.authToken}}',},
+				Authorization: '={{"Bearer " + $credentials.apiKey}}',},
 		}
 	};
 	test: ICredentialTestRequest = {
