@@ -11,10 +11,10 @@ export const resources: INodeProperties[] = [
 				name: 'Project',
 				value: 'project',
 			},
-			// {
-			// 	name: 'Test Case',
-			// 	value: 'testCase',
-			// },
+			{
+				name: 'Test Case',
+				value: 'testCase',
+			},
 		],
 		default: 'project',
 	},
