@@ -4,7 +4,11 @@ export const commonFields: INodeProperties[] = [
 	{
 		displayName: 'Project ID',
 		name: 'projectId',
-		type: 'string',
+		type: 'number',
+		typeOptions: {
+			minValue: 0,
+			numberPrecision: 0,
+		},
 		required: true,
 		default: '',
 		displayOptions: {
@@ -13,6 +17,7 @@ export const commonFields: INodeProperties[] = [
 					'deleteProject',
 					'getProject',
 					'updateProject',
+					'getTestCaseList',
 				]
 			}
 		},
