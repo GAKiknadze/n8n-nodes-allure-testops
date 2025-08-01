@@ -2,7 +2,7 @@ import { INodeType, INodeTypeBaseDescription, INodeTypeDescription } from "n8n-w
 import { NodeConnectionType } from 'n8n-workflow';
 import { resources } from "./Resources";
 import { projectOperations } from "./project";
-import { testCaseOperations } from "./testCase";
+// import { testCaseOperations } from "./testCase";
 import { commonFields } from "./Common";
 
 export class AllureTestOpsV25 implements INodeType {
@@ -37,7 +37,7 @@ export class AllureTestOpsV25 implements INodeType {
 			properties: [
 				...resources,
 				...projectOperations,
-				...testCaseOperations,
+				// ...testCaseOperations,
 				...commonFields,
 			],
 			usableAsTool: true,
