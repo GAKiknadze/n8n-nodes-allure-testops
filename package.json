@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-allure-testops",
   "version": "0.1.0",
-  "description": "N8N nodes for Allure TestOps",
+  "description": "N8N node for Allure TestOps",
   "keywords": [
     "n8n-community-node-package",
     "n8n-node",
@@ -15,7 +15,7 @@
     "workflow",
     "automation"
   ],
-  "license": " Apache-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/GAKiknadze/n8n-nodes-allure-testops#readme",
   "author": {
     "name": "G.A.Kiknadze",

@@ -90,7 +90,7 @@ _By the time users are looking for community nodes, they probably already know n
 
 ## License
 - [Source code](./LICENSE)
-- [N8N](./LICENSE.md)
+- [N8N](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
 - [Allure TestOps](https://qameta.io/license-terms/)
 
 ## Contributors
