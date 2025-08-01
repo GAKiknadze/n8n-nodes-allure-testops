@@ -21,6 +21,11 @@ This is an n8n community node. It lets you use [Allure TestOps](https://qameta.i
 
 ## Installation
 
+### NPM
+```shell
+npm i n8n-nodes-allure-testops
+```
+
 Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation.
 
 ## Operations
