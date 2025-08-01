@@ -44,6 +44,8 @@ export const getListOption: INodePropertyOptions = {
 				// sort: '={{ JSON.parse($parameter.sort) }}',
 				my: '={{ $parameter.additionalFieldsGetProjectList.my }}',
 				favorite: '={{ $parameter.additionalFieldsGetProjectList.favorite }}',
+				page: '={{ $parameter.page }}',
+				size: '={{ $parameter.size }}',
 			}
 		},
 	},
