@@ -1,18 +1,21 @@
-# n8n-nodes-_node-name_
+# n8n-nodes-allure-testops
 
-This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
+This is an n8n community node. It lets you use [Allure TestOps](https://qameta.io/) in your n8n workflows.
 
-_App/service name_ is _one or two sentences describing the service this node integrates with_.
+[Allure TestOps](https://qameta.io/) is a test management platform that integrates the processes of test case development, execution, and result analysis into a single system, providing transparency and control throughout all testing phases. It enables teams to centrally track quality metrics, automate reporting through integration with [Allure Framework](https://github.com/allure-framework), and accelerate decision-making via data visualization and collaboration tools.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
-[Installation](#installation)  
-[Operations](#operations)  
-[Credentials](#credentials)  <!-- delete if no auth needed -->  
-[Compatibility](#compatibility)  
-[Usage](#usage)  <!-- delete if not using this section -->  
-[Resources](#resources)  
-[Version history](#version-history)  <!-- delete if not using this section -->  
+## Table of contents
+- [Installation](#installation)  
+- [Operations](#operations)  
+- [Credentials](#credentials)  <!-- delete if no auth needed -->  
+- [Compatibility](#compatibility)  
+- [Usage](#usage)  <!-- delete if not using this section -->  
+- [Resources](#resources)  
+- [Version history](#version-history)  <!-- delete if not using this section -->  
+- [Star History](#star-history)
+- [Contributors](#contributors)
 
 ## Installation
 
@@ -39,10 +42,22 @@ _By the time users are looking for community nodes, they probably already know n
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
-* _Link to app/service documentation._
+* [Allure TestOps](https://docs.qameta.io/allure-testops)
 
 ## Version history
 
 _This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
 
 
+## Star history
+
+<a href="https://www.star-history.com/#GAKiknadze/n8n-nodes-allure-testops&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date" />
+ </picture>
+</a>
+
+## Contributors
+![[Contributors](https://github.com/GAKiknadze/n8n-nodes-allure-testops/graphs/contributors)](https://contrib.rocks/image?repo=GAKiknadze/n8n-nodes-allure-testops)
