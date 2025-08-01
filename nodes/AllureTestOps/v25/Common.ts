@@ -10,7 +10,7 @@ export const commonFields: INodeProperties[] = [
 			numberPrecision: 0,
 		},
 		required: true,
-		default: '',
+		default: 0,
 		displayOptions: {
 			show: {
 				operation: [
@@ -22,4 +22,68 @@ export const commonFields: INodeProperties[] = [
 			}
 		},
 	},
+	{
+		displayName: 'Page',
+		name: 'page',
+		type: 'number',
+		typeOptions: {
+			minValue: 0,
+			numberPrecision: 0,
+		},
+		default: 0,
+		displayOptions: {
+			show: {
+				operation: [
+					'getProjectList',
+					'getTestCaseList',
+				]
+			}
+		},
+	},
+	{
+		displayName: 'Size',
+		name: 'size',
+		type: 'number',
+		typeOptions: {
+			minValue: 1,
+			numberPrecision: 0,
+		},
+		default: 10,
+		displayOptions: {
+			show: {
+				operation: [
+					'getProjectList',
+					'getTestCaseList',
+				]
+			}
+		},
+	},
+	{
+		displayName: 'Query',
+		name: 'query',
+		type: 'string',
+		default: '',
+		displayOptions: {
+			show: {
+				operation: [
+					'getProjectList',
+				]
+			}
+		},
+	},
+	// TO-DO
+	// Реализовать сортировку по параметрам сущности
+	// {
+	// 	displayName: 'Sort',
+	// 	name: 'sort',
+	// 	type: 'json',
+	// 	default: '',
+	// 	displayOptions: {
+	// 		show: {
+	// 			operation: [
+	// 				'getProjectList',
+	// 			]
+	// 		}
+	// 	},
+	// }
 ]

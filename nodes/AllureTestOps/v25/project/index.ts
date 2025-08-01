@@ -1,7 +1,7 @@
 import { INodeProperties } from "n8n-workflow";
 import { createFields, createOption } from "./Create";
 import { deleteOption } from "./Delete";
-import { getListOption } from "./GetList";
+import { getListFields, getListOption } from "./GetList";
 import { getOption } from "./Get";
 import { updateFields, updateOption } from "./Update";
 
@@ -27,6 +27,7 @@ export const projectOperations: INodeProperties[] = [
 		],
 		default: '',
 	},
+	...getListFields,
 	...createFields,
 	...updateFields,
 ]
