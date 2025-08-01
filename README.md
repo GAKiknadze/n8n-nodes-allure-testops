@@ -15,8 +15,8 @@ This is an n8n community node. It lets you use [Allure TestOps](https://qameta.i
 - [Compatibility](#compatibility)  
 - [Usage](#usage)  <!-- delete if not using this section -->  
 - [Resources](#resources)  
-- [Version history](#version-history)  <!-- delete if not using this section -->  
-- [Star History](#star-history)
+- [Version history](#version-history)  <!-- delete if not using this section -->
+- [License](#license)
 - [Contributors](#contributors)
 
 ## Installation
@@ -50,16 +50,10 @@ _By the time users are looking for community nodes, they probably already know n
 
 _This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
 
-
-## Star history
-
-<a href="https://www.star-history.com/#GAKiknadze/n8n-nodes-allure-testops&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GAKiknadze/n8n-nodes-allure-testops&type=Date" />
- </picture>
-</a>
+## License
+- [Source code](./LICENSE)
+- [N8N](./LICENSE.md)
+- [Allure TestOps](https://qameta.io/license-terms/)
 
 ## Contributors
 ![[Contributors](https://github.com/GAKiknadze/n8n-nodes-allure-testops/graphs/contributors)](https://contrib.rocks/image?repo=GAKiknadze/n8n-nodes-allure-testops)
