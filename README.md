@@ -25,7 +25,45 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
-_List the operations supported by your node._
+| Resource | Action | Description| Status |
+| -- | -- | -- | -- |
+| Project | Create | Create project | ✅ |
+|  | Delete | Delete project | ✅ |
+|  | Get | Get project details | ✅ |
+|  | GetList | Get list of projects | ✅ |
+|  | Update | Update project | ✅ |
+| Test Case | Create | Create test case | ❌ |
+|  | Delete | Delete test case | ❌ |
+|  | Get | Get test case details | ❌ |
+|  | GetList | Get list of test cases | ❌ |
+|  | Update | Update test case | ❌ |
+| Launch | Create | Create launch | ❌ |
+|  | Delete | Delete launch | ❌ |
+|  | Get | Get launch details | ❌ |
+|  | GetList | Get list of launches | ❌ |
+|  | Update | Update launch | ❌ |
+|  | Results | Get launch test results | ❌ |
+| Test Result | GetList | Get list of test results | ❌ |
+|  | Get | Get test result details | ❌ |
+|  | Export | Export test results | ❌ |
+| Defect | GetList | Get list of defects | ❌ |
+|  | Get | Get defect details | ❌ |
+|  | Create | Create defect | ❌ |
+|  | Update | Update defect | ❌ |
+|  | Delete | Delete defect | ❌ |
+| Account | GetList | Get list of users | ❌ |
+|  | Get | Get user details | ❌ |
+|  | GetGroupList | Get access groups | ❌ |
+|  | AddToGroup | Add user from group | ❌ |
+|  | DeleteFromGroup | Remove user from group | ❌ |
+| Environment | GetList | Get list of environments | ❌ |
+|  | Create | Create environment variables | ❌ |
+|  | Update | Update environment variables | ❌ |
+|  | Delete | Delete environment variables | ❌ |
+| Analytic | DashboardList | Get dashboards | ❌ |
+|  | Trends | Get automation trends | ❌ |
+|  | GroupByStatus | Get grouping by status | ❌ |
+
 
 ## Credentials
 
