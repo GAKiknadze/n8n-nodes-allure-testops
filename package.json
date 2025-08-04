@@ -47,7 +47,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/AllureTestOpsCredentialsApi.credentials.js"
+      "dist/credentials/AllureTestOpsApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/AllureTestOps/AllureTestOps.node.js"
