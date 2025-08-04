@@ -33,7 +33,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "local": "npm run build && n8n start",
+    "local": "npm run build && export N8N_LOG_LEVEL=debug && n8n start",
     "build": "npx rimraf dist && tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
