@@ -23,12 +23,12 @@ export class AllureTestOpsV25 implements INodeType {
 			},
 			credentials: [
 				{
-					name: 'allureTestOpsCredentialsApi',
+					name: 'allureTestOpsApi',
 					required: true,
 				},
 			],
 			requestDefaults: {
-				baseURL: '={{$credentials.domain}}',
+				baseURL: '={{$credentials.server}}',
 				headers: {
 					Accept: 'application/json',
 					'Content-Type': 'application/json',
