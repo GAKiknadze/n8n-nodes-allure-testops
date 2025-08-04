@@ -76,7 +76,9 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Compatibility
 
-<!-- _State the minimum n8n version, as well as which versions you test against. You can also include any known version incompatibility issues._ -->
+This integration was tested on versions `N8N 1.104.2` and `Allure TestOps API version 25.3.1`.
+
+> The project structure initially included the ability to expand the list of supported versions. Therefore, if you need a specific version of Allure, you are welcome to [issue](https://github.com/GAKiknadze/n8n-nodes-allure-testops/issues ).
 
 ## Usage
 
