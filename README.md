@@ -72,7 +72,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Credentials
 
-<!-- _If users need to authenticate with the app/service, provide details here. You should include prerequisites (such as signing up with the service), available authentication methods, and how to set them up._ -->
+- [Allure TestOps API](./docs/credentials.md)
 
 ## Compatibility
 
